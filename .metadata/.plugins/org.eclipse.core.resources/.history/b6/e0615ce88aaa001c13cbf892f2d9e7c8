@@ -1,0 +1,27 @@
+package First;
+
+import java.util.TreeMap;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	TreeMap<Integer,String> s = new TreeMap<Integer, String>();
+	
+	s.put(10, null);
+	s.put(10, null);
+	s.put(10, null);
+	s.put(10, null);
+	s.put(10, null);
+	
+	int count=0;
+	for (int i = 0; i <s.size(); i++) {
+		
+		count++;
+	}
+	System.out.println(count);
+	 
+	}
+
+}

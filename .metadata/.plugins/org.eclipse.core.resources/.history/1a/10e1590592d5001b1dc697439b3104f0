@@ -1,0 +1,25 @@
+package com.demo.JavaTutorial.model;
+
+
+public class JavaTutorials {
+	
+	int a ;
+	String b;
+	
+	public JavaTutorials() {
+		super();
+	}
+
+	public JavaTutorials(int a, String b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}                       
+ 

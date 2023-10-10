@@ -1,0 +1,49 @@
+package JavaTutorialForBegeningCodeWithHarry;
+
+import java.util.Scanner;
+
+class MyException extends Exception{
+	  
+	 @Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "I am toString()";
+	}
+	 
+	 @Override
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return "I am getMessage()";
+	}
+  }
+
+  public class Exception_Class {
+	  
+	  public static void main(String[] args) {
+		  
+		int a; 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("The value of a is : ");
+		a = sc.nextInt();
+		
+		if(a<9) {
+			
+			try {
+				throw new MyException();
+				
+			}
+			
+			catch(Exception e) {
+				
+				System.out.println("e.toString()");
+				System.out.println("e.getMessage()");
+				
+			}
+			
+			
+			
+		}
+	}
+
+}

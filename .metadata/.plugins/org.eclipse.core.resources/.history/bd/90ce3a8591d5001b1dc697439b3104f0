@@ -1,0 +1,12 @@
+package com.demo.JavaTutorial.model;
+
+
+public class JavaTutorials {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}                       
+ 

@@ -1,0 +1,17 @@
+package Constructor;
+
+public class Student {
+int i;
+	
+	public void print()
+	{
+		System.out.println("hi");
+	}
+	
+	public Student(int i) 
+	{
+		this.i=i;
+		
+		System.out.println("I am constructor");
+	}
+}

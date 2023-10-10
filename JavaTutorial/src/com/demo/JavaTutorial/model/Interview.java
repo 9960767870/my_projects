@@ -1,0 +1,55 @@
+package com.demo.JavaTutorial.model;
+
+public class Interview {
+
+	String firstName;
+	String lastName;
+	int age;
+	int rollno;
+	char maleorfemale;
+
+	
+   public Interview()
+	// Default Constructor
+	{
+//		firstName = "rushi";
+//		lastName = "bhosale";
+//		age = 21;
+//		rollno = 9696;
+//		maleorfemale = 'm';
+//
+//		System.out.println("name:" + firstName + " " + lastName);
+//		System.out.println("age:" + age);
+//		System.out.println("rollno:" + rollno);
+//		System.out.println("maleorfemale:" + maleorfemale);
+
+	}
+	
+
+	public Interview(String firstName, String lastName, int age, int rollno, char maleorfemale) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.rollno = rollno;
+		this.maleorfemale = maleorfemale;
+	}
+	
+
+
+	@Override
+	public String toString() {
+		return "Interview [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", rollno=" + rollno
+				+ ", maleorfemale=" + maleorfemale + "]";
+	}
+
+
+	public static void main(String[] args) {
+
+		
+		Interview c1 = new Interview();
+		Interview c2 = new Interview("abfc","a;jkdf",33,33,'d');
+		System.out.println(c2);
+		Interview c3 = new Interview();
+	}
+
+  }

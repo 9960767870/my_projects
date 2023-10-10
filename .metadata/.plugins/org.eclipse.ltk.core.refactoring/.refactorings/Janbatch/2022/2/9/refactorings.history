@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;String.Assingt26&apos; to &apos;Assingt27&apos;&#x0D;&#x0A;- Original project: &apos;Janbatch&apos;&#x0D;&#x0A;- Original element: &apos;String.Assingt26&apos;&#x0D;&#x0A;- Renamed element: &apos;String.Assingt27&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Assingt26&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;String{Assingt26.java[Assingt26" matchStrategy="1" name="Assingt27" qualified="false" references="true" similarDeclarations="false" stamp="1645496453260" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package First;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str = "Java Programing";
+
+		str = "Better Concepts s^ prime prime" ;
+
+		str.substring(0,4);
+
+		System.out.println(str) ;
+	}
+
+}
